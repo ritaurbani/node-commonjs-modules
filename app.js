@@ -13,8 +13,8 @@ console.log(getHobbies)
 
 function personProfile () {
  const person = {
- fullName: getFullName(),
- hobbies: getHobbies()
+ fullName: getFullName("anna", "urbani"),
+ hobbies: getHobbies("cook","sing","dance")
  }
  return person
 }

@@ -9,8 +9,13 @@ function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     }
 }
 
+// scrivo direttamente cosi:
+// return {
+//     hobbies: [hobbyOne, hobbyTwo, hobbyThree]
+// }
+
 console.log(getHobbies("travel", "walk","cook"));
 
-module.export = getHobbies;
+module.exports= getHobbies;
 
 

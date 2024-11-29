@@ -14,7 +14,7 @@ console.log(getFullName("Anna","Urbani"));
 
 // Export module
 
-module.export = getFullName;
+module.exports = getFullName;
 
 
  
